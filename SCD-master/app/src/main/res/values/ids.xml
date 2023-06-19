@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="appBar" type="id" />
+    <item name="mPhotoImageView" type="id" />
+    <item name="mResultTextView" type="id" />
+    <item name="topAppBar" type="id" />
+    <item name="mDetectButton" type="id" />
+    <item name="tv_Detect" type="id" />
+    <item name="mCameraButton" type="id" />
+    <item name="tv_Camera" type="id" />
+    <item name="mGalleryButton" type="id" />
+    <item name="tv_Galeri" type="id" />
+    <item name="btn_detect" type="id" />
+</resources>

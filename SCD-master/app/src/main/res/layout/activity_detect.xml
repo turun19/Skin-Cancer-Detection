@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DetectActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:navigationIcon="@drawable/ic_baseline_arrow_back_24"
+            app:title="Detect"
+            app:titleTextColor="@color/white" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ImageView
+        android:id="@+id/mPhotoImageView"
+        android:layout_width="340dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_launcher_background"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBar" />
+
+    <TextView
+        android:id="@+id/mResultTextView"
+        android:layout_width="346dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/defaultImage"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mPhotoImageView" />
+    <TextView
+        android:id="@+id/mResultTextView2"
+        android:layout_width="346dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mResultTextView" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mDetectButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/lightRed"
+        android:src="@drawable/vector_scan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="DETECT"
+        android:textColor="@color/lightRed"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mDetectButton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mCameraButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/lightRed"
+        android:src="@drawable/camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="CAMERA"
+        android:textColor="@color/lightRed"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.157"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mCameraButton" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mGalleryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/lightRed"
+        android:src="@drawable/galeri"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.836"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Galeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="GALERI"
+        android:textColor="@color/lightRed"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.841"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mGalleryButton" />
+
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/cardView1"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="173dp"-->
+    <!--            android:layout_marginRight="30dp"-->
+    <!--            app:cardCornerRadius="10dp"-->
+
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:layout_marginLeft="30dp"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/tv_2">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:background="@color/merah"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_marginLeft="30dp"-->
+    <!--                    android:layout_marginTop="25dp"-->
+    <!--                    android:layout_marginRight="30dp"-->
+    <!--                    android:orientation="horizontal">-->
+
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:orientation="vertical">-->
+
+    <!--                        <ImageView-->
+    <!--                            android:layout_width="120dp"-->
+    <!--                            android:layout_height="129dp"-->
+    <!--                            android:background="@drawable/char_2" />-->
+
+    <!--                    </LinearLayout>-->
+
+    <!--                    <RelativeLayout-->
+    <!--                        android:id="@+id/relativeLayout1"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent">-->
+
+    <!--                        <TextView-->
+    <!--                            android:id="@+id/relative_tv1"-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:text="Mengambil Gambar"-->
+    <!--                            android:textColor="@color/white"-->
+    <!--                            android:textSize="16sp"-->
+    <!--                            android:textStyle="bold" />-->
+
+    <!--                        <RelativeLayout-->
+    <!--                            android:id="@+id/relativeLayout2"-->
+    <!--                            android:layout_width="match_parent"-->
+    <!--                            android:layout_height="40dp"-->
+    <!--                            android:layout_below="@+id/relative_tv1"-->
+    <!--                            android:layout_marginTop="20dp">-->
+
+    <!--                            <TextView-->
+    <!--                                android:layout_width="match_parent"-->
+    <!--                                android:layout_height="match_parent"-->
+    <!--                                android:text="@string/ambilGambar"-->
+    <!--                                android:textColor="@color/white"-->
+    <!--                                android:textSize="11sp" />-->
+
+    <!--                        </RelativeLayout>-->
+
+    <!--                        <RelativeLayout-->
+    <!--                            android:id="@+id/relativeLayout3"-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:layout_below="@id/relativeLayout2"-->
+    <!--                            android:layout_marginTop="7dp">-->
+
+    <!--                            <ImageView-->
+    <!--                                android:layout_width="25dp"-->
+    <!--                                android:layout_height="25dp"-->
+    <!--                                android:background="@drawable/right_arrow" />-->
+
+    <!--                        </RelativeLayout>-->
+
+    <!--                    </RelativeLayout>-->
+
+    <!--                </LinearLayout>-->
+
+    <!--            </LinearLayout>-->
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/cardView2"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="173dp"-->
+    <!--            android:layout_marginRight="30dp"-->
+    <!--            app:cardCornerRadius="10dp"-->
+    <!--            android:onClick="openGaleri"-->
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:layout_marginLeft="30dp"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/cardView1">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:background="@color/merah"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_marginLeft="30dp"-->
+    <!--                    android:layout_marginTop="25dp"-->
+    <!--                    android:layout_marginRight="30dp"-->
+    <!--                    android:orientation="horizontal">-->
+
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:orientation="vertical">-->
+
+    <!--                        <ImageView-->
+    <!--                            android:layout_width="120dp"-->
+    <!--                            android:layout_height="129dp"-->
+    <!--                            android:background="@drawable/char_3" />-->
+
+    <!--                    </LinearLayout>-->
+
+    <!--                    <RelativeLayout-->
+    <!--                        android:id="@+id/relativeLayout4"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent">-->
+
+    <!--                        <TextView-->
+    <!--                            android:id="@+id/relative_tv2"-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:text="@string/unggahFoto"-->
+    <!--                            android:textColor="@color/white"-->
+    <!--                            android:textSize="16sp"-->
+    <!--                            android:textStyle="bold" />-->
+
+    <!--                        <RelativeLayout-->
+    <!--                            android:id="@+id/relativeLayout5"-->
+    <!--                            android:layout_width="match_parent"-->
+    <!--                            android:layout_height="40dp"-->
+    <!--                            android:layout_below="@+id/relative_tv2"-->
+    <!--                            android:layout_marginTop="20dp">-->
+
+    <!--                            <TextView-->
+    <!--                                android:layout_width="match_parent"-->
+    <!--                                android:layout_height="match_parent"-->
+    <!--                                android:text="@string/unggahFoto2"-->
+    <!--                                android:textColor="@color/white"-->
+    <!--                                android:textSize="11sp" />-->
+
+    <!--                        </RelativeLayout>-->
+
+    <!--                        <RelativeLayout-->
+    <!--                            android:id="@+id/relativeLayout6"-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:layout_below="@id/relativeLayout5"-->
+    <!--                            android:layout_marginTop="7dp">-->
+
+    <!--                            <ImageView-->
+    <!--                                android:layout_width="25dp"-->
+    <!--                                android:layout_height="25dp"-->
+    <!--                                android:background="@drawable/right_arrow" />-->
+
+    <!--                        </RelativeLayout>-->
+
+    <!--                    </RelativeLayout>-->
+
+    <!--                </LinearLayout>-->
+
+    <!--            </LinearLayout>-->
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+
+    <!--        <com.google.android.material.card.MaterialCardView-->
+    <!--            android:id="@+id/cardView3"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="120dp"-->
+    <!--            android:layout_marginRight="30dp"-->
+    <!--            app:cardCornerRadius="10dp"-->
+    <!--            android:layout_marginTop="30dp"-->
+    <!--            android:layout_marginLeft="30dp"-->
+    <!--            app:layout_constraintTop_toBottomOf="@+id/cardView2">-->
+
+    <!--            <LinearLayout-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="match_parent"-->
+    <!--                android:background="@color/merah"-->
+    <!--                android:orientation="vertical">-->
+
+    <!--                <LinearLayout-->
+    <!--                    android:layout_width="match_parent"-->
+    <!--                    android:layout_height="match_parent"-->
+    <!--                    android:layout_marginLeft="30dp"-->
+    <!--                    android:layout_marginTop="25dp"-->
+    <!--                    android:layout_marginRight="30dp"-->
+    <!--                    android:orientation="horizontal">-->
+
+    <!--                    <LinearLayout-->
+    <!--                        android:layout_width="wrap_content"-->
+    <!--                        android:layout_height="wrap_content"-->
+    <!--                        android:orientation="vertical" />-->
+
+    <!--                    <RelativeLayout-->
+    <!--                        android:id="@+id/relativeLayout7"-->
+    <!--                        android:layout_width="match_parent"-->
+    <!--                        android:layout_height="match_parent">-->
+
+    <!--                        <TextView-->
+    <!--                            android:id="@+id/relative_tv3"-->
+    <!--                            android:layout_width="wrap_content"-->
+    <!--                            android:layout_height="wrap_content"-->
+    <!--                            android:text="@string/apaSaja"-->
+    <!--                            android:textColor="@color/white"-->
+    <!--                            android:textSize="16sp"-->
+    <!--                            android:textStyle="bold" />-->
+
+    <!--                        <RelativeLayout-->
+    <!--                            android:id="@+id/relativeLayout8"-->
+    <!--                            android:layout_width="match_parent"-->
+    <!--                            android:layout_height="38dp"-->
+    <!--                            android:layout_below="@+id/relative_tv3"-->
+    <!--                            android:layout_marginTop="10dp">-->
+
+    <!--                            <TextView-->
+    <!--                                android:layout_width="wrap_content"-->
+    <!--                                android:layout_height="wrap_content"-->
+    <!--                                android:text="@string/pelajari"-->
+    <!--                                android:textColor="@color/white"-->
+    <!--                                android:textSize="12sp" />-->
+
+    <!--                        </RelativeLayout>-->
+
+    <!--                    </RelativeLayout>-->
+
+    <!--                </LinearLayout>-->
+
+    <!--            </LinearLayout>-->
+
+    <!--        </com.google.android.material.card.MaterialCardView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

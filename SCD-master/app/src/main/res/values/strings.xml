@@ -1,0 +1,148 @@
+<resources>
+    <string name="app_name">SCD</string>
+    <string name="tv_1">Halo! Selamat Datang di Scan Cancer Applications (SCAPPS)</string>
+    <string name="tv_2">Kita bisa bantu kamu buat ngecek kesehatan kulit kamu disini. Yuk, cobain!</string>
+    <string name="mulaiCek">Mulai cek kesehatan</string>
+    <string name="deskripsi1">Kanker kulit adalah jenis kanker yang tumbuh di jaringan kulit. Kondisi ini ditandai dengan perubahan pada kulit, seperti munculnya benjolan, bercak, atau tahi lalat dengan bentuk dan ukuran yang tidak normal. Kanker kulit diduga kuat disebabkan oleh paparan sinar ultraviolet dari matahari.</string>
+    <string name="deskripsi2">Kanker kulit diduga kuat disebabkan oleh paparan sinar ultraviolet dari matahari. Sinar UV ini dapat menyebabkan rusaknya sel pada kulit, hingga menimbulkan kanker kulit.</string>
+    <string name="mari1">Mari kita lihat kulitmu!</string>
+    <string name="mari2">Apa yang kamu miliki ?</string>
+    <string name="ambilGambar">Ambil gambar perubahan kulit yang ingin kamu periksa.</string>
+    <string name="apaSaja">Apa saja kemungkinannya ?</string>
+    <string name="pelajari">Pelajari lebih lanjut tentang semua perubahan kulit yang kami coba di aplikasi kami</string>
+    <string name="unggahFoto">Unggah Foto</string>
+    <string name="unggahFoto2">Unggah gambar foto dengan perubahan kulit kamu di tengah</string>
+    <string name="defaultImage">Default image set now…</string>
+    <string name="tampilan1">Karsinoma sel basal adalah kanker kulit yang menyerang sel basal. Kanker ini umumnya muncul di area kulit yang seri…</string>
+    <string name="tampilan2">Melanoma adalah jenis kanker kulit yang paling serius. Penyakit kulit ini berkembang pada sel (melanosit) yang memp…</string>
+    <string name="tampilan3">Nevus adalah bercak berwarna yang terdapat di atas permukaan kulit. Bercak berwarna ini berasal dari sel-sel melano…</string>
+    <string name="tampilan4">Keratosis seboroik adalah benjolan seperti kutil yang tumbuh di permukaan kulit. Kondisi ini lebih sering terjadi p…</string>
+
+    <!--    String value untuk artikel barsal-->
+    <string name="basal">Karsinoma sel basal adalah kanker kulit yang menyerang sel basal. Kanker ini umumnya muncul di area kulit yang
+        sering terkena sinar matahari, seperti wajah, kepala, atau leher.Sel basal adalah sel yang terletak di bagian paling bawah dari lapisan kulit terluar
+        (epidermis). Sel ini berfungsi untuk memproduksi sel kulit baru dan menggantikan sel kulit lama yang mati melalui proses pengelupasan kulit. Pada karsinoma
+        sel basal, produksi sel kulit menjadi tidak terkendali sehingga membentuk kanker</string>
+    <string name="faktorBasal">
+        Ada beberapa faktor yang dapat meningkatkan risiko terjadinya karsinoma sel basal, yaitu:\n<br></br>
+        <br>- Berusia di atas 50 tahun\n</br>
+        <br>- Berjenis kelamin laki-laki\n</br>
+        <br>- Terpapar sinar matahari secara berlebihan, misalnya\n</br>
+        <br>karena bekerja di luar ruangan\n</br>
+        <br>- Memiliki riwayat kanker kulit pada diri sendiri atau dalam\n</br>
+        <br>keluarga, misalnya karsinoma sel skuamosa\n</br>
+        <br>- Pernah menjalani terapi radiasi (radioterapi)\n</br>
+        <br>- Mengonsumsi obat-obatan yang menekan sistem\n</br>
+        <br>kekebalan tubuh, seperti obat imunosupresif\n</br>
+        <br>- Menderita penyakit keturunan yang berisiko menyebabkan\n</br>
+        <br>kanker kulit, seperti nevoid basal cell carcinoma syndrome\n</br>
+        <br>- Terpapar racun arsenik dalam jangka panjang\n</br>
+    </string>
+    <string name="pengobatanBasal">
+        Pengobatan karsinoma sel basal bertujuan untuk menghilangkan atau mengangkat sel kanker. Metode pengobatannya akan disesuaikan dengan kondisi kesehatan dan usia pasien, serta lokasi dan ukuran tumor.
+        Beberapa metode yang dapat dilakukan untuk menangani karsinoma sel basal adalah:\n<br></br>
+        <br>-Pemotongan dengan jarum elektrik\n</br>
+        <br>-Pemotongan dengan pisau bedah\n</br>
+        <br>-Krioterapi\n</br>
+        <br>-Operasi Mohs\n</br>
+        <br>-Terapi fotodinamik\n</br>
+        <br>-Terapi radiasi (radioterapi)\n</br>
+        <br>-Kemoterapi\n</br>
+    </string>
+
+    <!--    string value untuk artikel melanoma-->
+    <string name="melanoma">
+        Melanoma adalah jenis kanker kulit yang paling serius. Penyakit kulit ini berkembang pada sel (melanosit) yang memproduksi melanin atau pigmen yang memberi warna pada kulit. Melanoma juga bisa terbentuk di mata dan di dalam tubuh, seperti di hidung atau tenggorokan, namun lebih jarang terjadi.
+
+        Belum diketahui secara pasti penyebab dari penyakit ini, tapi paparan radiasi ultraviolet (UV) dari sinar matahari atau lampu tanning meningkatkan risiko terkena risiko terkena melanoma. Untuk mengurangi risiko kondisi ini, maka seseorang perlu membatasi paparan radiasi UV.
+
+        Risiko penyakit ini tampaknya meningkat pada orang di bawah usia 40 tahun, terutama pada wanita. Itulah pentingnya mengetahui tanda-tanda kanker kulit agar dapat memastikan perubahan kanker terdeteksi. Setelah itu kondisi kulit dapat diobati sebelum kanker menyebab. Melanoma dapat berhasil diobati jika terdeteksi dini.
+    </string>
+    <string name="faktorMelanoma">
+        Faktor-faktor yang dapat meningkatkan risiko penyakit ini meliputi:\n<br></br>
+        <br>- Berkulit putih.\n</br>
+        <br>- Memiliki riwayat terbakar sinar matahari.\n</br>
+        <br>- Paparan sinar ultraviolet (UV) yang berlebihan.\n</br>
+        <br>- Tinggal dekat dengan garis khatulistiwa atau di ketinggian yang lebih tinggi.\n</br>
+        <br>- Memiliki banyak tahi lalat atau tahi lalat yang tidak biasa.\n</br>
+        <br>- Memiliki riwayat keluarga dengan melanoma.\n</br>
+        <br>- Sistem kekebalan tubuh melemah.\n</br>
+    </string>
+    <string name="pengobatanMelanoma">
+        Pengobatan kanker kulit mirip dengan pengobatan kanker lainnya. Namun tidak seperti kebanyakan kanker di dalam tubuh, lebih
+        mudah untuk mengakses jaringan kanker dan menghilangkannya sepenuhnya. Untuk alasan ini, operasi adalah pilihan pengobatan
+        standar untuk melanoma.Pengobatan dilakukan berdasarkan beberapa pertimbangan, seperti:\n<br></br>
+        <br>- Jika menutupi area kulit yang luas, cangkok kulit mungkin diperlukan.\n</br>
+        <br>- Jika ada risiko kanker telah menyebar ke kelenjar getah bening, dokter mungkin akan melakukan biopsi kelenjar getah bening. \n</br>
+        <br>- Terapi radiasi dapat dilakukan pada melanoma stadium \n</br>
+        <br>lanjut.\n</br>
+        <br>\n</br>
+        Penyakit ini dapat bermetastasis atau menyebar ke organ lain. Jika ini terjadi,
+        dokter akan merekomendasikan perawatan tergantung di mana melanoma telah menyebar. Hal ini termasuk:\n<br></br>
+        <br>- Kemoterapi, dengan menggunakan obat yang menargetkan sel kanker.\n</br>
+        <br>- Imunoterapi, dengan menggunakan obat yang bekerja dengan sistem kekebalan untuk membantu melawan kanker.\n</br>
+        <br>- Terapi bertarget, menggunakan obat-obatan yang mengidentifikasi dan menargetkan gen atau protein
+              tertentu yang spesifik untuk kondisi ini.</br>
+    </string>
+
+<!--    string value untuk artikel nevus-->
+    <string name="nevus">Nevus adalah bercak berwarna yang terdapat di atas permukaan kulit. Bercak berwarna ini berasal dari sel-sel melanosit, yakni pembentuk warna kulit dan rambut.
+
+        Kondisi ini umumnya muncul saat lahir atau segera setelah lahir, terbanyak pada dewasa muda, dan menurun pada orang tua.
+
+        Nevus sendiri terdiri dari bermacam-macam jenis, antara lain nevus melanocytic yang dikenal dengan istilah “tahi lalat” dan giant hairy nevus.
+
+        Jenis nevus yang kedua ini perlu diwaspadai karena sekitar 10-15 persen di antaranya dapat berkembang menjadi ganas.\n<br></br>
+    </string>
+
+    <string name="faktorNevus">
+        Sebenarnya tidak ada faktor risiko yang benar-benar mendasari munculnya nevus.
+        Namun, orang dengan riwayat orang tua dengan nevus yang cukup banyak, biasanya dapat memiliki hal serupa.\n<br></br>
+    </string>
+
+    <string name="pengobatanNevus">
+        Umumnya nevus tidak memerlukan terapi, kecuali bila pasien ingin bercak berwarna
+        itu diangkat, atau dokter mencurigai perubahan ke arah keganasan.\n<br></br>
+        <br>\n</br>
+        Terapi yang dapat dipilih pada kondisi tersebut untuk adalah eksisi sederhana nevus yang dicurigai ganas.\n<br></br>
+        <br>\n</br>
+        Eksisi adalah operasi kecil dengan melakukan anastesi setempat. Prosedur ini dapat dilakukan
+        oleh dokter umum tanpa masuk ke kamar operasi.\n<br></br>
+        <br>\n</br>
+        Tindakan ini cukup aman dengan standar operasional
+        dan tingkat kesterilan yang baik, sehingga tidak terjadi efek samping yang mengkhawatirkan pascaoperasi.\n<br></br>
+    </string>
+    <!--    string value untuk artikel keratosis seberoik-->
+    <string name="keratosisSeberoik">
+        Keratosis seboroik adalah benjolan seperti kutil yang tumbuh di permukaan kulit. Kondisi ini
+        lebih sering terjadi pada orang dewasa, terutama orang lanjut usia, dan jumlahnya dapat bertambah seiring waktu.\n<br></br>
+        <br>\n</br>
+        Keratosis seboroik dapat tumbuh di mana saja, kecuali di telapak tangan dan kaki, atau di lapisan
+        mukosa mulut dan hidung. Bagian tubuh yang sering menjadi lokasi kemunculan keratosis seboroik adalah
+        wajah, dada, bahu, punggung, dan lipatan kulit.\n<br></br>
+        <br>\n</br>
+        Benjolan keratosis seboroik tumbuh dengan lambat, tidak menular, dan jarang berkembang menjadi kanker.
+        Kondisi ini umumnya tidak menimbulkan nyeri dan tidak memerlukan pengobatan khusus. Namun, penanganan
+        oleh dokter bisa dilakukan jika kondisi ini dirasa mengganggu.\n<br></br>
+    </string>
+    <string name="faktorKeratosis">
+        Keratosis seboroik terjadi ketika sel-sel di kulit tumbuh secara tidak normal. Belum diketahui\
+        secara pasti apa penyebab kondisi tersebut, tetapi diduga terkait dengan beberapa faktor berikut:\n<br></br>
+        <br>- Berusia di atas 40 tahun\n</br>
+        <br>- Sering terpapar sinar matahari.\n</br>
+        <br>- Memiliki riwayat keratosis seboroik di dalam keluarga.\n</br>
+        <br>- Sering mengalami gesekan pada kulit, seperti pada lipatan kulit bagian dalam.\n</br>
+    </string>
+    <string name="pengobatanKeratosis">
+        Keratosis seboroik umumnya tidak memerlukan pengobatan khusus. Namun, jika benjolan tersebut
+        mengalami iritasi atau infeksi, pasien harus menjalani pengobatan. Keratosis seboroik juga dapat
+        dihilangkan jika penderita merasa benjolan tersebut mengganggu penampilan atau membuatnya tidak
+        nyaman.\n<br></br>
+        <br>\n</br>
+        Beberapa metode pengangkatan benjolan keratosis seboroik yang dapat dijalani pasien adalah:\n<br></br>
+        <br>- Krioterapi\n</br>
+        <br>- Terapi Leser\n</br>
+        <br>- Electrocautery\n</br>
+        <br>- Kuret (curettage)\n</br>
+    </string>
+</resources>
